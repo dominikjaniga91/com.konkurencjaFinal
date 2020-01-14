@@ -1,0 +1,66 @@
+
+body
+{
+    font-family: 'Nunito', sans-serif;
+    color: #262626;
+    margin:0;
+    background-image: url(dot-grid.png);
+    background-size: auto;
+}
+
+#cropplogo1{
+
+height: 50px;
+position: absolute;
+right:0%;
+}
+
+.containerUpload{
+
+  width: 800px;
+  height: 400px;
+  color: black;
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+
+}
+
+.formUpload
+{
+    float: left;
+    width: 400px;
+    height: 200px;
+    color: black;
+    background-color: transparent;
+
+}
+.button{
+
+position: absolute;
+right: 0%;
+top:60px;
+border: none;
+background-color: transparent;
+font-family: 'Nunito', sans-serif;
+font-size: 15px;
+color: white;
+height: 30px;
+width: 125px;
+}
+
+.button:hover{
+  background-color: #0080ff;
+  cursor: pointer;
+}
+
+.information{
+
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    width: 400px;
+}

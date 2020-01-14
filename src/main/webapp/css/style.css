@@ -1,0 +1,102 @@
+
+body
+{
+    font-family: 'Nunito', sans-serif;
+    color: #262626;
+    margin:0;
+    background-image: url(lppsa.jpg);
+    background-size: cover;
+
+}
+
+
+#cropplogo{
+
+height: 100px;
+position: absolute;
+right:0%;
+}
+
+.mainlogo{
+
+    font-size: 30px;
+    float: left;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 45px;
+
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    margin-top: 50px;
+    margin-left:-11px;
+    float: left;
+    border-style: solid;
+    border-width:  0px 0px 20px 20px;
+    border-color: transparent transparent transparent #009FE2;
+    content: ' ';
+    transform: translate(30px, 38px);
+    display: block;
+
+    z-index: 1;
+    transform: rotate(135deg);
+
+}
+
+.formIndex
+{
+    width: 300px;
+    height: 200px;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+}
+
+.formIndex input{
+
+  margin-top:5px;
+  border: none;
+  width:200px;
+  height: 25px;
+}
+
+#submitLogin{
+
+background-color:  #0080ff;
+height: 30px;
+width: 100px;
+margin-left: 108px;
+margin-top: 30px;
+letter-spacing: 1px;
+font-size: 13px;
+color: white;
+cursor: pointer;
+box-shadow: 0px 10px 10px 0px black;
+border: none;
+
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.information{
+
+    clear: both;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+}
